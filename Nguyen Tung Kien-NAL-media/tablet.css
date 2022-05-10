@@ -1,0 +1,236 @@
+@media only screen and (min-width: 425px){
+    *{
+        font-family: 'Noto Serif JP';
+    }
+    
+    header{
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    
+    hr{
+        margin: 0px 10px 0px 10px;
+    }
+        
+    .container{
+        text-align: center;
+        max-width: 720px;
+        
+    }
+    
+    .image-container{
+        width: 50%;
+        
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        position: relative;
+        height: 255px;
+    }
+    
+    .image-container img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .small-image {
+        width: 100%;
+        height: 255px;
+        position: relative;
+        margin-top: 10px;
+    }
+    
+    .small-image img {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        height: 255px;
+        
+    }
+    
+    .box-content-container {
+        width: 83%;
+        height: 25%;
+        background-color: white;
+        position: absolute;
+        bottom: 0px;
+        left: 8%;
+    }
+    
+    #box-category {
+        background-color: red;
+        position: absolute;
+        width: 16%;
+        height: 11%;
+        bottom: 25%;
+        left: 13%;
+    }
+    
+    #box-category p {
+        font-size: 10px;
+        color: white;
+        position: absolute;
+        top: 25%;
+        left: 1%;
+    }
+    
+    .box-title {
+        padding: 2% 2% 0 2%;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    
+    .box-content {
+        font-size: 10px;
+        margin: 10px 10px 0px 10px;
+        display: block;
+        display: -webkit-box;
+        height: 16px*1.3*3;
+        line-height: 1.3;
+         /* -webkit-line-clamp: 1; số dòng hiển thị  */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;    
+    }
+    
+    #box-category-2 {
+        background-color: purple;
+        position: absolute;
+        width: 19%;
+        height: 11%;
+        bottom: 25%;
+        left: 13%;
+    }
+    
+    #box-category-2 p {
+        font-size: 10px;
+        color: white;
+        position: absolute;
+        top: 25%;
+        left: 1%;
+    }
+    
+    #box-category-3 {
+        background-color: rgb(21, 117, 219);
+        position: absolute;
+        width: 19%;
+        height: 11%;
+        bottom: 25%;
+        left: 13%;
+    }
+    
+    #box-category-3 p {
+        font-size: 10px;
+        color: white;
+        position: absolute;
+        top: 25%;
+        left: 1%;
+    }
+    
+    .article-item{
+        margin: 0px 10px 15px 10px;
+    }
+    
+    .article-image{
+        width: 50%;
+    }
+    
+    .col-6 img{
+        width: 100%;
+    }
+    
+    #category-name-1{
+        background-color: darkgreen;
+    }
+    
+    .category-name{
+        width: fit-content;
+        font-size: 12px;
+        margin: 0px;
+        color: white;
+    }
+    
+    /* .category-name p{
+        margin: 0px;
+    }  */
+    
+    
+    
+    /* .article-title {
+        margin: 0px;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: start;
+    }
+    
+    .article-content header{
+        margin: 0px;
+    }
+    
+    .article-date-admin{
+        font-size: 10px;
+        text-align: start;
+    }
+    
+    .article-content header{
+        margin-bottom: 10px;
+    }
+    
+    .main-content{
+        font-size: 10px;
+        display: block;
+        display: -webkit-box;
+        height: 16px*1.3*3;
+        line-height: 1.3;
+        -webkit-line-clamp: 3; /* số dòng hiển thị */
+        /* -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .aside-wrapper header{
+        margin-bottom: 16px;
+    }
+    
+    .banner-container{
+        margin: 0px 10px 10px 10px;
+    
+    }
+    
+    .banner{
+        margin-bottom: 10px;
+    }
+    
+    .banner img{
+        width: 100%;
+    }
+    
+    .tag-container{
+        margin: 0px 10px 0px 10px;
+    }
+    
+    .tag-container header{
+        margin-bottom: 16px;
+    }
+    
+    .tag{
+        margin: 0px 5px 5px 5px;
+    }
+    
+    footer .row{
+        margin: 0px 10px 0px 10px;
+    }
+    
+    .footer-image img{
+        width: 100%;
+    }
+    
+    .footer-content{
+        margin: 0px 10px 0px 10px;
+        font-size: 12px;
+    } 
+
+}
+    
